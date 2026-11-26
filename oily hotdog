@@ -1,0 +1,51 @@
+Java Document
+jshell>public class Main {
+   public static void main(String[] args) {
+            //Declaring variables
+            int count = 20;
+            double total = 301.50;
+            char grade = 'S';
+            boolean isActive = true;
+            String userName = "Mumo769";
+   
+            System.out.println("Count: " +count);
+            System.out.println("Total: " +total);
+            System.out.println("Grade: " +grade);
+            System.out.println("Active: " +isActive);
+            System.out.println("Username: " +userName);
+   
+    }
+    }
+|  modified class Main
+
+jshell> Main.main(null);
+Count: 20
+Total: 301.5
+Grade: S
+Active: true
+Username: Mumo769
+
+
+
+
+Python Document
+ count = 20
+ total = 301.50
+ grade = "S"
+ city = "NBO-MCK,KEN"
+ userName = "Tyrone.M"
+ assno = "B004767***"
+
+print("Count:" ,{count})
+print("Total:" ,{total})
+print("Grade:" ,{grade})
+print("City:" ,{city})
+print("Name:" ,{userName})
+print("Assmnt.No:" ,{assno})
+
+Count: {20}
+Total: {301.5}
+Grade: {'S'}
+City: {'NBO-MCK,KEN'}
+Name: {'Tyrone.M'}
+Assmnt.No: {'B004767***'}
